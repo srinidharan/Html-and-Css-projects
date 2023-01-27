@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image: url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+body{
+     font-family:'roboto', sans-serif;
+     margin: 0;
+     
+}
+.container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    
+
+}
+.pre-nav{
+       justify-content: space-between;
+       display: flex;
+       align-items: center;
+       font-size: 2rem;
+       margin-bottom: 2rem;
+       
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    
+}
+
+nav li a{
+    background-color: #2d99a4;
+     display:block;
+     padding: 1rem 1rem;
+     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li {
+    flex: 1 auto;
+    
+}
+nav a.active{
+    color: #026e78;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.highlight {
+    background-color: #026e78;
+    color: #fff;
+}
+
+nav a:hover{
+    opacity: 0.8;
+}
+
+.logo{
+    font-weight: bold;
+    color:#026F79;
+    margin-top: 1rem;
+}
+ 
+nav a i{
+    margin-right: 9px;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 7rem;
+    font-size: 2rem;
+    
+    
+    
+
+}
+
+.content h1{
+    font-size: 4rem;
+    background-color: #026e78;
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 200;
+
+}
+
+.white-link{
+
+    background-color: #ffffff;
+    padding: 1rem;
+    color: #026e78;
+    
+}
+
+.teal-link{
+    
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    background-color: #026e78;
+}
+
+@media screen and (max-width: 768px) {
+
+    .pre-nav{
+        flex-direction: column;
+        
+    }
+    
+    .content{
+        font-size: 1.5rem;
+    }
+    .content h1{
+         font-size: 3rem;
+    }
+}
+
