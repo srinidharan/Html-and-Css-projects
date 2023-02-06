@@ -8,12 +8,16 @@
 </head>
 <body>
       
-      <h3>this is in testing purpose :)</h3>
-      <h2><a href="./automotive car/index.html" target="_blank">Expanding Cards</a></h2>
-      <h2><a href="./fashion/index.html" target="_blank">Fashion</a></h2>
-      <h2><a href="./Footwear design/index.html" target="_blank">Footwear design</a></h2>
-      <h2><a href="./Restaurant design/index.html" target="_blank">Restaurant design</a></h2>
-      <h2><a href="./Tourism UI Design/index.html" target="_blank">Tourism UI design</a></h2>
+      <h3> HTML & CSS Projects </h3>
+      <div class="container">
+      <div><a href="./automotive car/index.html" target="_blank"><img src="./images/automotive image.png" alt=""></a></div>
+      <div><a href="./fashion/index.html" target="_blank"> <img src="./images/fashion image.png" alt="">  </a></div>
+      <div><a href="./Footwear design/index.html" target="_blank"><img src="./images/restaurant image.png" alt=""></a></div>
+      <div><a href="./Restaurant design/index.html" target="_blank"><img src="./images/sports image.png" alt=""></a></div>
+      <div><a href="./Tourism UI Design/index.html" target="_blank"><img src="./images/travel agency image.png" alt=""></a></div>
+      </div>
+      
+     
 </body>
 </html>
 
@@ -27,44 +31,72 @@
 body{
 
     font-family: 'poppins',sanserif;
-    background-color: crimson;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    background-color: black;
     min-height: 100vh;
-    margin: 0;
     color: whitesmoke;
 }
+
+h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 450px;
+    height: 308px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.145);
+    opacity: 1;
+    
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
 
 .container{
-    
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-h2{
 
-    font-size: 1.7rem;
-    padding:20px;
-    margin: 20px 0;
-    background: rgba(4, 2, 2, 0.51);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    margin: 10px 10px ;
-    text-align: center;
-    border-radius: 10px;
-    
-   
-}
-h1{
-    position: relative;
-    top: 10px;
-}
-a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
